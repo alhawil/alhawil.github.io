@@ -29,3 +29,10 @@ h1, h2 {
 section {
   margin-bottom: 30px;
 }
+
+.cv-placeholder {
+  margin-top: 15px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
