@@ -1,26 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Othman's CV / Resume</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Othman's CV / Resume</title>
+  <meta name="description" content="Othman's CV and resume page.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="resume.html">CV / Resume</a>
-    <a href="coursework.html">Course Work & Projects</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+  <a class="skip-link" href="#content">Skip to content</a>
 
-  <h1>CV / Resume</h1>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html">Othman</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="resume.html" aria-current="page">CV / Resume</a>
+        <a href="coursework.html">Course Work &amp; Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-  <section>
-    <p>A full CV will be available here soon.</p>
+  <main id="content" class="page-shell">
+    <section class="hero compact-hero">
+      <div class="hero-content">
+        <p class="section-label">CV / Resume</p>
+        <h1>CV / Resume</h1>
+      </div>
+    </section>
 
-    <div class="cv-placeholder">
-      <p>Embedded CV coming soon.</p>
-    </div>
-  </section>
+    <section class="card wide-card">
+      <p>A full CV will be available here soon.</p>
+
+      <div class="cv-placeholder">
+        <p>Embedded CV coming soon.</p>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
